@@ -86,10 +86,13 @@
     .hero-art:after { width: 390px; height: 390px; }
     .sprout { width: min(250px, 65%); height: auto; z-index: 1; filter: drop-shadow(0 12px 10px rgba(56,78,61,.08)); }
     .art-note {
-      position: absolute; bottom: 35px; right: 28px; z-index: 2;
-      background: rgba(255,254,250,.78); border: 1px solid rgba(99,125,105,.15);
+      position: absolute; bottom: 24px; left: 50%; right: auto; z-index: 2;
+      transform: translateX(-50%);
+      width: max-content; max-width: calc(100% - 32px);
+      text-align: center; white-space: normal;
+      background: rgba(255,254,250,.92); border: 1px solid rgba(99,125,105,.15);
       border-radius: 999px; padding: 8px 14px; font-family: var(--serif);
-      font-style: italic; font-size: 13px; color: var(--green-dark);
+      font-style: italic; font-size: 13px; line-height: 1.35; color: var(--green-dark);
     }
     .belief { background: var(--white); padding: 78px 0 82px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
     .section-heading { max-width: 650px; margin-bottom: 42px; }
@@ -157,7 +160,7 @@
         <a href="#philosophy">Our philosophy</a>
         <a href="#what-we-build">What we build</a>
         <a href="#vision">Our vision</a>
-        <a class="nav-cta" href="https://github.com/fresh-petals">Explore GitHub ↗</a>
+        <a class="nav-cta" href="https://github.com/Fresh-Petals">Explore GitHub ↗</a>
       </nav>
     </div>
   </header>
@@ -170,7 +173,7 @@
         <p class="hero-copy">We nurture ideas into thoughtful applications that make knowledge accessible, discovery effortless, and understanding meaningful.</p>
         <div class="actions">
           <a class="button button-primary" href="#philosophy">Discover our approach <span aria-hidden="true">→</span></a>
-          <a class="button button-secondary" href="https://github.com/fresh-petals">Visit our GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://github.com/Fresh-Petals">Visit our GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </div>
       <div class="hero-art" aria-label="A seed growing into a young sprout">
@@ -274,7 +277,7 @@
       </div>
       <span>Bringing Knowledge to the Fore.</span>
       <div class="footer-links">
-        <a href="https://github.com/fresh-petals">GitHub ↗</a>
+        <a href="https://github.com/Fresh-Petals">GitHub ↗</a>
         <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Back to top ↑</a>
       </div>
     </div>
