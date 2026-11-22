@@ -136,7 +136,7 @@
           <li><code>com.android.vending.BILLING</code>: enables Google Play Billing for Premium purchases.</li>
           <li><code>com.google.android.gms.permission.AD_ID</code>, <code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code>, and <code>ACCESS_ADSERVICES_TOPICS</code>: included by the Google Mobile Ads SDK for advertising ID and Android ad attribution/Topics APIs on supported devices. Google may use related information for ad delivery and measurement, subject to your device and ad settings.</li>
           <li><code>WAKE_LOCK</code> and <code>FOREGROUND_SERVICE</code>: included by Google Play services measurement and background-work libraries for their platform functions. They do not give the app background location access.</li>
-          <li><code>com.ashutoshdubey.shubhpanchang.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>: an internal signature-level permission added by AndroidX to protect app receivers. It is not a user-granted permission.</li>
+          <li>An app-specific <code>DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>: an internal signature-level permission added by AndroidX to protect app receivers. Its name is derived from the app's package ID; it is not a user-granted permission.</li>
         </ul>
         <p>Library permissions and Android ad APIs can vary with platform and dependency versions. The list above reflects the current merged Android release manifest.</p>
 
